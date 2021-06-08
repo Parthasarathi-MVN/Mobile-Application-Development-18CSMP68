@@ -12,22 +12,26 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="388dp"
         android:text="C"
+        app:backgroundTint="#FF0000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.851"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#6A1616" />
 
     <Button
         android:id="@+id/buttondiv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="388dp"
+        android:layout_marginTop="320dp"
         android:tag="DIV"
         android:text="/"
+        app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintHorizontal_bias="0.851"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#A63013" />
 
     <Button
         android:id="@+id/buttonmul"
@@ -36,10 +40,12 @@
         android:layout_marginTop="320dp"
         android:tag="MUL"
         android:text="*"
+        app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#A63013" />
 
     <Button
         android:id="@+id/buttondot"
@@ -50,30 +56,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#6A1616" />
 
     <Button
         android:id="@+id/buttonadd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="252dp"
         android:tag="ADD"
         android:text="+"
+        app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintHorizontal_bias="0.851"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#A63013" />
 
     <Button
         android:id="@+id/buttoneq"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="252dp"
+        android:layout_marginTop="388dp"
         android:text="="
+        app:backgroundTint="#4CAF50"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#28650E" />
 
     <Button
         android:id="@+id/button0"
@@ -84,7 +95,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#6A1616" />
 
     <Button
         android:id="@+id/button1"
@@ -95,18 +107,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#6A1616" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="184dp"
-        android:text="2"
+        android:text="3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.851"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#6A1616" />
 
     <Button
         android:id="@+id/button2"
@@ -117,7 +131,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#6A1616" />
 
     <Button
         android:id="@+id/buttonsub"
@@ -126,10 +141,12 @@
         android:layout_marginTop="252dp"
         android:tag="SUB"
         android:text="-"
+        app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#A63013" />
 
     <Button
         android:id="@+id/button6"
@@ -140,7 +157,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.851"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#6A1616" />
 
     <Button
         android:id="@+id/button5"
@@ -151,7 +169,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#6A1616" />
 
     <Button
         android:id="@+id/button4"
@@ -162,7 +181,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#6A1616" />
 
     <Button
         android:id="@+id/button9"
@@ -175,7 +195,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button8"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#6A1616" />
 
     <Button
         android:id="@+id/button8"
@@ -186,16 +207,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#6A1616" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="131dp"
-        android:layout_height="31dp"
+        android:layout_width="203dp"
+        android:layout_height="36dp"
         android:layout_marginTop="36dp"
         android:text="Result"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintStart_toStartOf="parent"
@@ -223,5 +245,6 @@
         app:layout_constraintEnd_toStartOf="@+id/button8"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input" />
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:rippleColor="#6A1616" />
 </androidx.constraintlayout.widget.ConstraintLayout>
