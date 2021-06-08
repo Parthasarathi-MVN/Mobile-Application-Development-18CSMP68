@@ -95,6 +95,11 @@ public class MainActivity extends AppCompatActivity
             operator = v.getTag().toString();    
             input.setText(input.getText() + "" +text);
         }
+        else if((((Button)v).getText()+"").equals("-"))
+        {
+            operand1 = "-";
+            input.setText("-");
+        }
     }
 
     public void clear(View v)
