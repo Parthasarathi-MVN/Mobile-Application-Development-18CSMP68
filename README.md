@@ -8,7 +8,7 @@
 
 [2.](https://github.com/Parthasarathi-MVN/Mobile-Application-Development-18CSMP68/tree/master/MyCalculator) Develop an Android application usingcontrols like Button, TextView, EditText for designing a calculator having basic functionality like Addition, Subtraction, Multiplication and Division.
 
-3. Create a SIGN Up activity with Username and Password. Validation of password should happen based on the following rules:
+[3.](https://github.com/Parthasarathi-MVN/Mobile-Application-Development-18CSMP68/tree/master/LoginAndSignup) Create a SIGN Up activity with Username and Password. Validation of password should happen based on the following rules:
         • Password should contain uppercase and lowercase letters.
         • Password should contain letters and numbers.
         • Password should contain special characters.
