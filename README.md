@@ -23,6 +23,6 @@ On successful SIGN UP proceed to the next Login activity. Here the user should S
 
 6. Create two files of XML and JSON type with values for City_Name, Latitude, Longitude, Temperature,andHumidity. Develop an application to create an activity with two buttons to parse the XML and JSON files which when clicked should display the data in their respective layouts side by side.
 
-7. Develop a simple application with one Edit Text so that the user can write some text in it. Create a button called “Convert Text to Speech” that converts the user input text into voice.
+[7.](https://github.com/Parthasarathi-MVN/Mobile-Application-Development-18CSMP68/tree/master/TextToSpeech) Develop a simple application with one Edit Text so that the user can write some text in it. Create a button called “Convert Text to Speech” that converts the user input text into voice.
 
 [8.](https://github.com/Parthasarathi-MVN/Mobile-Application-Development-18CSMP68/tree/master/MyPhoneDailer) Create an activity like a phone dialer with CALLand SAVE buttons. On pressing the CALL button, it must call the phone number and on pressing the SAVE button it must save the number to the phone contacts.
