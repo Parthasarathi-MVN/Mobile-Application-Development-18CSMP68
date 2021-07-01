@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<Records>
+    <City>
+        <City-Name> Hyderabad </City-Name>
+        <Longitude>10.5646</Longitude>
+        <Latitude>50.6548</Latitude>
+        <Temperature>30.5</Temperature>
+        <Humidity>85%</Humidity>
+    </City>
+</Records>
+
