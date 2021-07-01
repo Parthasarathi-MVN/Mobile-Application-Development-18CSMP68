@@ -21,7 +21,7 @@ On successful SIGN UP proceed to the next Login activity. Here the user should S
 
 [5.](https://github.com/Parthasarathi-MVN/Mobile-Application-Development-18CSMP68/tree/master/MyCounterApp) Write a program to create an activity with two buttons START and STOP. On pressing of the START button, the activity must start the counter by displaying the numbers from One and the counter must keep on counting until the STOP button is pressed. Display the counter value in a TextViewcontrol.
 
-6. Create two files of XML and JSON type with values for City_Name, Latitude, Longitude, Temperature,andHumidity. Develop an application to create an activity with two buttons to parse the XML and JSON files which when clicked should display the data in their respective layouts side by side.
+[6.](https://github.com/Parthasarathi-MVN/Mobile-Application-Development-18CSMP68/tree/master/ParseXMLAndJSON) Create two files of XML and JSON type with values for City_Name, Latitude, Longitude, Temperature,andHumidity. Develop an application to create an activity with two buttons to parse the XML and JSON files which when clicked should display the data in their respective layouts side by side.
 
 [7.](https://github.com/Parthasarathi-MVN/Mobile-Application-Development-18CSMP68/tree/master/TextToSpeech) Develop a simple application with one Edit Text so that the user can write some text in it. Create a button called “Convert Text to Speech” that converts the user input text into voice.
 
