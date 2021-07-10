@@ -41,6 +41,7 @@ public class ViewActivity extends AppCompatActivity {
     public String parseXmlDocument()
     {
         lblJsonData.setText("");
+        lblXmlData.setText("XML Data");
         try {
             InputStream is = getAssets().open("input.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -53,7 +54,8 @@ public class ViewActivity extends AppCompatActivity {
                 Node node = nList.item(i);
                 if (node.getNodeType() == Node.ELEMENT_NODE) {
                     Element element2 = (Element) node;
-                    lblXmlData.setText("City Name : " + getValue("City-Name", element2)+"\n\n");
+                    lblXmlData.setText("XML Data:\n\n");
+                    lblXmlData.append("City Name : " + getValue("City-Name", element2)+"\n\n");
                     lblXmlData.append("Latitude : " + getValue("Latitude", element2)+"\n\n");
                     lblXmlData.append("Longitude : " + getValue("Longitude", element2)+"\n\n");
                     lblXmlData.append("Temperature : " + getValue("Temperature", element2)+"\n\n");
@@ -73,6 +75,7 @@ public class ViewActivity extends AppCompatActivity {
     public void parseJson()
     {
         lblXmlData.setText("");
+
         try {
             InputStream inputStream=getAssets().open("input.json");
             byte[] data=new byte[inputStream.available()];
@@ -81,7 +84,8 @@ public class ViewActivity extends AppCompatActivity {
             String readData=new String(data);
             JSONObject jsonObject=new JSONObject(readData);
             JSONObject jsonObject1=jsonObject.getJSONObject("City");
-            lblJsonData.setText("City Name:"+jsonObject1.getString("City-Name")+"\n\n");
+            lblJsonData.setText("JSON Data:\n\n");
+            lblJsonData.append("City Name:"+jsonObject1.getString("City-Name")+"\n\n");
             lblJsonData.append("Latitude:"+jsonObject1.getString("Latitude")+"\n\n");
             lblJsonData.append("Longitude"+jsonObject1.getString("Longitude")+"\n\n");
             lblJsonData.append("Temperature:"+jsonObject1.getInt("Temperature")+"\n\n");
